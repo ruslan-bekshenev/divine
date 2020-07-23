@@ -120,5 +120,30 @@ get_header();
         </div>
        
     </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>ВАМ ПОНРАВИЛОСЬ?<br />ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ!</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="contacts__data">
+                        <h4>Контакты</h4>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                                <img src="<?=get_template_directory_uri()?>/img/ints.png" alt=""> DIVINE.graph
+                            </li>
+                            <li class="contacts-item">
+                                <img src="<?=get_template_directory_uri()?>/img/email.png" alt=""> diVINE@graphics.com
+                            </li>
+                            <li class="contacts-item">
+                                <img src="<?=get_template_directory_uri()?>/img/vk.png" alt=""> diVINE.graph
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <?php
 get_footer();

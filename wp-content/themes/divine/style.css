@@ -157,3 +157,47 @@
 	line-height: 24px;
 	letter-spacing: 0.3px;
 }
+
+.contacts {
+	background-color: #7beec7;
+	padding: 50px 0;
+	color: #fff;
+}
+
+.contacts h4 {
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.contacts__data {
+	background: url('./img/Shape_10.png') no-repeat;
+	width: 100%;
+	color: #60606e;
+	padding: 20px 20px 30px;
+}
+
+.contacts__data h4 {
+	color: #60606e;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.contacts__data ul {
+	margin: 0;
+	padding-left: 10px;
+	list-style: none;
+}
+.contacts__data li, .contacts__data li a {
+	color: #60606e;
+	margin-bottom: 10px;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
